@@ -11,7 +11,7 @@ function startGame() {
   renderCards();
   setTimeout(() => {
     document.getElementById('card-container').classList.remove('hidden');
-  }, 500);
+  }, 1000);
 }
 
 function resetGame() {
