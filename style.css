@@ -28,12 +28,13 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin-top: 20px;
-  width: 90%;
+  width: 100%;
+  justify-content: center;
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: #3498db;
   color: #fff;
   font-size: 5em;
@@ -101,6 +102,10 @@ button:hover {
 
   #card-container {
     grid-template-columns: repeat(11, 1fr);
+  }
+  .card {
+    width: 100px;
+    height: 100px;
   }
 
 }
